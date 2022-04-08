@@ -1,0 +1,39 @@
+/* This is what you copied and pasted from Google Fonts: 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+h1 {
+font-family: 'Bebas Neue';
+font-size: 72px;
+text-align: right;
+}
+h2 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+body {
+    margin: 10%;
+    font-family: 'Playfair Display';
+}
+header {
+  text-align: center;
+
+}
+img {
+  height: 200px
+}
+
+#userGridArea {
+  margin: 0px 5%;
+  display:grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "NPS" "OB" "NAO" ;
+}
+
+.SamaraPic
